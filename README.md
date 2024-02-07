@@ -116,9 +116,18 @@ Además, se han creado y proporcionado los siguientes archivos CSV a partir de l
 steam_games.csv
 user_reviews.csv
 users_items.csv
+
 Los archivos JSON originales estarán disponibles para lectura en el siguiente enlace: Enlace a los archivos JSON originales
 
 # **Proceso a ejecutar el código en este orden:**
+
+Trabajé normalizando los datasets, en el caso de los que contenían una lista o diccionario, los desanide, cree variables ficticias y volví a recrear la columna nueva y la original la elimine.
+
+Utilizé analyze columns para analizar todas las columnas y guardé los notebooks en la carpeta llamda ETL EDA PNL e Feature Engineering Steam.
+
+Respecto a FastAPI uvicorn pandas cree la carpeta Proyectos donde guardé las funciones y ejecuté el código cada endpoints respetando las directivas y la salida 'Ejemplo de retorno'
+
+En EDA busqué realizar un desarrollo en donde busco concoer un poco más cada dato procesado, un enfoque más cercano a STEAM para poder brindar asesoramiento y conocer el PMV
 
 # **Modelo de aprendizaje automático**
 Se ha elegido implementar un sistema de recomendación basado en el filtro user-item. Esto implica tomar un usuario, encontrar usuarios similares y recomendar ítems que a esos usuarios similares les gustaron. La API resultante deberá incluir dos funciones principales:
@@ -138,13 +147,13 @@ def recomendacion_juego(id_de_juego):
 
 # **Desarrollo de una API utilizando FastAPI con los siguientes endpoints:**
 
-
 PlayTimeGenre(genero: str)
 UserForGenre(genero: str)
 UsersRecommend(año: int)
 UsersNotRecommend(año: int)
 sentiment_analysis(año: int)
 Ejecución de la API
+
 La API desarrollada con FastAPI está disponible en el siguiente enlace: Enlace a la API
 
 Video Explicativo
