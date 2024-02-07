@@ -1,4 +1,4 @@
-![ETL & EDA\Logo PI MLOps STEAM.png](https://github.com/JavierEdgarEsteban77/PI-MLOps---STEAM/blob/ac6b524c83736a49ed22650410ac58ed3172777c/ETL%20%26%20EDA/Logo%20PI%20MLOps%20STEAM.png)
+![ETL & EDA\Logo PI MLOps STEAM.png](https://github.com/JavierEdgarEsteban77/https---github.com-JavierEdgarEsteban77-Steam/blob/9b7089e67f148e122f3aa2d8a6712ccee762bb4f/ETL%20EDA%20NLP%20%26%20Feature%20Engineering%20STEAM/Logo%20PI%20MLOps%20STEAM.png)
 
 # **Descripción del Proyecto**
 
