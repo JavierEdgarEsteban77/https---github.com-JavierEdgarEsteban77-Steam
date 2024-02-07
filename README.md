@@ -106,12 +106,6 @@ xyzservices==2023.10.1
 Este proyecto tiene como objetivo realizar un análisis de datos de juegos de la empresa Steam, incluyendo reseñas de usuarios y datos de usuarios. El propósito final es desarrollar un Producto Mínimo Viable (MVP) que incluya ingeniería de características, análisis de sentimientos y una API para facilitar la toma de decisiones a través de recomendaciones.
 
 # **Requisitos**
-Las dependencias necesarias para este proyecto están detalladas en el archivo requirements.txt. Asegúrate de instalarlas usando el siguiente comando:
-
-bash
-Copy code
-pip install -r requirements.txt
-Archivos del Proyecto
 Los archivos JSON originales con los que trabajaremos para construir nuestros DataFrames de Steam son:
 
 steam_games.json
@@ -125,13 +119,6 @@ users_items.csv
 Los archivos JSON originales estarán disponibles para lectura en el siguiente enlace: Enlace a los archivos JSON originales
 
 # **Proceso a ejecutar el código en este orden:**
-Importar las bibliotecas necesarias, que incluyen json, pandas, ast, gzip, nltk, vader_lexicon, matplotlib, seaborn, boxplot, os, FastAPI y tqdm.
-Adaptar los datasets en tres DataFrames distintos: df_steam_games, df_user_reviews y df_users_items.
-Cargar y trabajar los datos de los juegos de Steam, las reseñas de los usuarios y los datos de los usuarios utilizando la función cargar_datos para procesarlos.
-Realizar el preprocesamiento y la limpieza de los datos.
-Realizar el análisis de sentimientos en las reseñas de los usuarios utilizando la biblioteca NLTK.
-Análisis exploratorio de los datos (EDA)
-Una vez que toda la data es consumible por la API, está lista para ser utilizada por los departamentos de Analytics y Machine Learning. El EDA permite entender bien los datos a los que tenemos acceso, explorando relaciones, identificando outliers o anomalías, y descubriendo patrones interesantes.
 
 # **Modelo de aprendizaje automático**
 Se ha elegido implementar un sistema de recomendación basado en el filtro user-item. Esto implica tomar un usuario, encontrar usuarios similares y recomendar ítems que a esos usuarios similares les gustaron. La API resultante deberá incluir dos funciones principales:
@@ -161,4 +148,4 @@ Ejecución de la API
 La API desarrollada con FastAPI está disponible en el siguiente enlace: Enlace a la API
 
 Video Explicativo
-Un video explicativo del proyecto, incluyendo demostraciones de las consultas desde la API y una breve explicación del modelo utilizado para el sistema de recomendación, se encuentra disponible en el siguiente enlace: Enlace al Video Explicativo
+Un video explicativo del proyecto, incluyendo demostraciones de las consultas desde la API y una breve explicación del modelo utilizado para el sistema de recomendación, se encuentra disponible en el siguiente enlace: Enlace al Video Explicativo al siguiente enlace: https://us04web.zoom.us/clips/share/rLL1SHzsF_ayYv1A6k_uhDaBrKtI-DIA1OwyzmZRsp7p5j5nYSBb4vv2wYtL-TcPwisWMRoQqMa7niWYu374HacJdQ.11MayMbfhPu0pnBX
