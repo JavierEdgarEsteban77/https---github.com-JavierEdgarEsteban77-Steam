@@ -14,3 +14,4 @@ item_similarity = calcular_similitud_coseno(user_item_matrix)
 @app.get("/recomendacion_juego")
 def recomendacion_juego_endpoint(title: str = Query(..., description="ID del juego")):
     return recomendacion_juego(title, user_item_matrix, item_similarity)
+
